@@ -1,0 +1,180 @@
+.book-now{
+    padding:35px 90px;
+    text-align: right;
+}
+.container-fluid{
+    
+    background:url(/assets/images/beach10.jpg) center center fixed;
+    background-size:cover;
+    height:cal(100vh-145);
+
+   
+}
+.bookme{
+width:200px;
+color:#ddfffc;
+border:3px solid #fff;
+border-radius: 5px;
+font-size:15px;
+text-transform:uppercase;
+
+}
+.header-container{
+    padding:60px 20px;
+   
+text-align: center; 
+  margin-top:6em;
+}
+.header-container .mat-display-2 {
+    color:#fff;
+    opacity:0;
+}
+.mat-headline{
+    color:#fff;
+    font-weight:500;
+}
+.India{
+position:relative ;
+width:100%;
+text-align:center;
+transform: translate(-25%,-25%)
+}
+.India h5 {
+-webkit-text-fill-color: transparent;
+background: url(/assets/images/wave.jpg) repeat;
+-webkit-background-clip: text;
+font-stretch:normal;
+font-size:100px;
+letter-spacing:0.1em;
+font-weight:500;
+text-transform: uppercase;
+font-family:'Rubik',sans-serif;
+left: 25%;
+position:relative;
+}
+.home-section p{
+    text-align:center;
+    line-height:normal;
+}
+.rooms-home-section{
+display :flex;
+flex-direction:row;
+flex-wrap: wrap;
+margin:15px;
+
+}
+.rooms-home-section .mat-card{
+position:relative;
+text-align: center;
+}
+.rooms-suites{
+    background: url(/assets/images/room1.jpg) center center no-repeat;
+    background-size:cover;
+    
+}
+.beach-house{
+    background: url(/assets/images/resort1.jpg) center center no-repeat;
+    background-size:cover;
+    
+}
+.rooms-home-section mat-card{
+    height:500px;
+}
+.rooms-home-section mat-card-header h2{
+    text-transform:uppercase;
+    font-weight:400;
+    font-size:34px;
+    line-height:43px;
+
+}
+.rooms-home-section .mat-card-header{
+    position:absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:100%;
+    text-align:center;
+    height:55px;
+    background:rgba(255, 248 ,225, .6)
+}
+.rooms-home-section .mat-card-actions{
+    position:absolute;
+    top:95%;
+    left:51.6%;
+    transform: translate(-50%,-50%);
+    width:100%;
+    text-align:center;
+    height:55px;
+    background:rgba(255, 248 ,225, .6)
+}
+.rooms-home-section mat-card buttom{
+    min-width:141px;
+    min-height:40px;
+}
+.lux{
+    font-weight:500;
+}
+.equ{
+    font-weight:500;
+}
+.title-home{
+    background-color: #d8fcf0;
+}
+
+.spa{
+    background: url(/assets/images/spa9.jpg) center center no-repeat;
+    background-size:cover;
+    
+}
+.yoga{
+    background: url(/assets/images/yoga12.jpg) center center no-repeat;
+    background-size:cover;
+}
+.excursion{
+    background: url(/assets/images/exc6.jpg) center center no-repeat;
+    background-size:cover;
+}
+.activities{
+    background: url(/assets/images/act19.jpg) center center no-repeat;
+    background-size:cover;
+
+}
+.celeb{
+    background: url(/assets/images/act6.jpg) center center no-repeat;
+    background-size:cover;
+
+    
+}
+.wed{
+    background: url(/assets/images/wed4.jpg) center center no-repeat;
+    background-size:cover;
+
+}
+@media all and (min-width:768px){
+    .container{
+height:100vh;
+    }
+ 
+}
+@media all and (max-width:768px){
+    .container{
+height:100vh;
+    }
+    .header-container .mat-headline{
+        font-size:3rem;
+        line-height:1.1;
+
+           }
+}
+@media all and (max-width:599px) {
+    .header-container .mat-headline{
+        font-size:3rem;
+        line-height:1.1;
+
+           }
+           .header-container .mat-display-1{
+            font-size:1.1rem;
+            line-height:1.1;
+            
+               }
+}

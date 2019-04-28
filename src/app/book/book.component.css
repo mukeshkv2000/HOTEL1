@@ -1,0 +1,12 @@
+.book{
+    background: url(/assets/images/room10.jpg) center center;
+background-size:cover;
+}
+.table_book{
+    background-color: #2bdae245;
+    width:500px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  }

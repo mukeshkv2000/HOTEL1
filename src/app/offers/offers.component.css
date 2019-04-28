@@ -1,0 +1,12 @@
+.offers{
+    background-image: url(/assets/images/offer13.jpg) no-repeat;
+    background-size:cover;
+}
+.thumbnail{
+    width:500px;
+    height:400px;
+    padding:2em;
+}
+.m5{
+  margin:3em;  
+}

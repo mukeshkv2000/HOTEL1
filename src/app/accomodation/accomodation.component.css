@@ -1,0 +1,10 @@
+.imgcard button{
+    position:relative;
+    left: 31%;
+    bottom: 17%;  
+    font-weight:600;
+
+}
+.text mat-card {
+font-size:34px;
+}

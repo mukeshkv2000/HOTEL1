@@ -1,0 +1,44 @@
+<div class="navtabs-container">
+<nav mat-tab-nav-bar fxFlex fxLayout fxLayoutAlign="center center">  
+  
+  <a mat-tab-link  routerLink="/"
+  routerLinkActive #home="routerLinkActive"
+  [active]="home.isActive">
+  HOME
+ </a>
+ <a mat-tab-link  routerLink="/accomodation"
+ routerLinkActive #accomodation="routerLinkActive"
+ [active]="accomodation.isActive">
+ROOMS
+</a>
+<a mat-tab-link  routerLink="/food"
+routerLinkActive #food="routerLinkActive"
+[active]="food.isActive">
+RESTAURENT &amp; BAR
+</a>
+<a mat-tab-link  routerLink="/wedding"
+routerLinkActive #wedding="routerLinkActive"
+[active]="wedding.isActive">
+WEDDINGS
+</a>
+<a mat-tab-link  routerLink="/lifestyle"
+routerLinkActive #lifestyle="routerLinkActive"
+[active]="lifestyle.isActive">
+LIFESTYLE
+</a>
+<a mat-tab-link  routerLink="/offers"
+routerLinkActive #offers="routerLinkActive"
+[active]="offers.isActive">
+OFFERS
+</a>
+  <!-- <mat-tab-group mat-align-tabs="center">
+    <mat-tab label="Home">
+<app-home></app-home>
+    </mat-tab>
+    <mat-tab label="check2"></mat-tab>
+    <mat-tab label="check21"></mat-tab>
+    <mat-tab label="check23"></mat-tab>
+    <mat-tab label="check145"></mat-tab>
+  </mat-tab-group> -->
+</nav>
+</div>

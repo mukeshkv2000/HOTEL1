@@ -1,0 +1,49 @@
+.corsel-control{
+   width:100%;
+height:400px;
+}
+.form-posn{
+    position:relative;
+    bottom:102%;
+}
+.form-control{
+    background: url(/assets/images/wed5.jpg) center right;
+    background-size: cover;
+    font-family:''Rubik'' ,sans-serif;
+    color:#000;
+    font-weight:600;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000;
+    opacity: 1; /* Firefox */
+    text-align: center
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#000;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000;
+  }
+  .lux{
+    font-weight:500;
+    color:#fff;
+    font-size:34px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:500;
+
+}
+.equ{
+    font-weight:500;
+    color:#fff;
+    font-size:27px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:500;
+    
+}
+.title-home{
+  position:relative;
+  bottom:80%;
+  z-index:1;
+}

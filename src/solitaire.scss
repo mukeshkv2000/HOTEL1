@@ -1,0 +1,122 @@
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+
+
+
+$solitaire-primary: ( 
+50 : #e1fdfb,
+100 : #b5fbf6,
+200 : #84f8f0,
+300 : #52f5e9,
+400 : #2df2e5,
+500 : #08f0e0,
+600 : #07eedc,
+700 : #06ecd8,
+800 : #04e9d3,
+900 : #02e5cb,
+A100 : #ffffff,
+A200 : #d9fffa,
+A400 : #a6fff3,
+A700 : #8cfff0,
+contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #000000,
+    600 : #000000,
+    700 : #000000,
+    800 : #000000,
+    900 : #000000,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+)
+);
+$solitaire-accent: (
+    50 : #fffdf6,
+    100 : #fff9e8,
+    200 : #fff6d9,
+    300 : #fff2ca,
+    400 : #ffefbe,
+    500 : #ffecb3,
+    600 : #ffeaac,
+    700 : #ffe7a3,
+    800 : #ffe49a,
+    900 : #ffdf8b,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+
+$solitaire-primary: mat-palette($solitaire-primary,700, 300, 900);
+$solitaire-accent:  mat-palette($solitaire-accent, 500, 400, 700);
+
+
+$solitaire-warn:    mat-palette($mat-red);
+
+
+$solitaire-theme: mat-light-theme($solitaire-primary, $solitaire-accent, $solitaire-warn);
+
+@import './app/navigation/nav-tabs/nav-tabs.component-theme.scss';
+@include angular-material-theme($solitaire-theme);
+@include nav-tabs-component-theme($solitaire-theme);
+////topography
+$solitaire-typography : mat-typography-config(
+    $font-family:   'Roboto, "Helvetica Neue", sans-serif',
+    $display-4:     mat-typography-level(112px, 112px, 300),
+    $display-3:     mat-typography-level(56px, 56px, 400),
+    $display-2:     mat-typography-level(45px, 48px, 400),
+    $display-1:     mat-typography-level(34px, 40px, 400),
+    $headline:      mat-typography-level(90px, 32px, 400),
+    $title:         mat-typography-level(20px, 32px, 500),
+    $subheading-2:  mat-typography-level(16px, 28px, 400),
+    $subheading-1:  mat-typography-level(15px, 24px, 400),
+    $body-2:        mat-typography-level(14px, 24px, 500),
+    $body-1:        mat-typography-level(14px, 20px, 400),
+    $caption:       mat-typography-level(12px, 20px, 400),
+    $button:        mat-typography-level(14px, 14px, 500),
+    // Line-height must be unit-less fraction of the font-size.
+    $input:         mat-typography-level(inherit, 1.125, 400)
+);
+
+@include mat-base-typography($solitaire-typography);
+
+// Override typography for a specific Angular Material components.
+@include mat-checkbox-typography($solitaire-typography);
+
+// Override typography for all Angular Material, including mat-base-typography and all components.
+@include angular-material-typography($solitaire-typography);
+
+@include mat-core($solitaire-typography);
+
+.mat-list-option:hover, .mat-list-option:focus, .mat-nav-list .mat-list-item:hover, .mat-nav-list .mat-list-item:focus {
+    background: mat-color($solitaire-primary,100)
+}
+

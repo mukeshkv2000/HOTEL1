@@ -1,0 +1,12 @@
+@import '~@angular/material/theming';
+
+@mixin nav-tabs-component-theme($solitaire){
+   
+    $primary: map-get($solitaire,primary);
+    $accent: map-get($solitaire,accent);
+
+    .navtabs-container{
+        background-color: mat-color($solitaire-primary,100)
+    }
+
+}

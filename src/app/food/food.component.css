@@ -1,0 +1,31 @@
+.container-fluid{
+    background: url(/assets/images/food1.jpg) center center fixed;
+    background-size:cover;
+    height:100vh;
+    text-align: center;
+}
+.container-fluid p{
+    font-weight:400;
+    font-size:55px;
+    padding-top:15%;
+    color:#fff;
+    font-family: 'Rubik', sans-serif;
+}
+.example-card img{
+    width:500px;
+    padding:2%;
+}
+.bar{
+  margin-top:10em;
+background:url(/assets/images/bar1.jpg) center center fixed;
+background-size:cover;
+height:100vh;
+
+}
+.bar span{
+  position:relative;
+ top:75%;
+color:#fff;
+font-weight:500;
+font-size:34px;;
+}

@@ -1,0 +1,41 @@
+.yoga_img img{
+    padding:5px;
+}
+.title{
+    position: absolute;
+    top: 5em;
+    left: 6em;
+    z-index: 5;
+    font-size: 46px;
+    color:#fff;
+}
+.btn-primary {
+    color: #080808;
+    background-color: #06ecd8;
+    border-color: #06ecd8;
+}
+.btn-primary:focus {
+    color: #080808;
+    background-color: #06ecd8;
+    border-color: #06ecd8;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #06ecd8;
+    border-color: #06ecd8;
+}
+
+.celeb{   background: url(/assets/images/act20.jpg) center center no-repeat;
+    background-size:cover;
+
+}
+
+.spa{   background: url(/assets/images/spa1.jpg) center center no-repeat;
+    background-size:cover;
+
+}
+
+.yoga{   background: url(/assets/images/yoga3.jpg) center center no-repeat;
+    background-size:cover;
+
+}

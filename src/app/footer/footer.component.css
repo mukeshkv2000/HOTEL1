@@ -1,0 +1,24 @@
+.copyright{
+    text-align: center;
+    background-color:#c3e0e4;
+    font-weight:600;
+}
+.quick_links{
+    list-style-type: none;
+}
+.quick_links li:first-child{
+    font-weight:600;
+    color:#000;
+
+}
+.quick_links li{
+    font-weight:600;
+    color:#fff;
+}
+.links{
+    background-color: #009baf;
+}
+.links .row .col-3 {
+    text-align: left;
+    padding:2em;
+}
